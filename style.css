@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    border: 0;
+    margin: 0;
+    font-family: Poppins,sans-serif;
+}
+:root{
+--font-base-color : white;
+--font-accent-color : grey;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    min-height: 70vh;
+    margin-bottom: 1.5em;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.head-top-left{
+    margin-left: 2em;
+    color: var(--font-base-color);
+}
+.head-list-top-right{
+    display: flex;
+    gap: 2rem;
+    margin-right: 2em;
+}
+.head-list-top-right li{
+    list-style-type: none;
+}
+.head-list-top-right a{
+    text-decoration: none;
+    color: var(--font-base-color);
+}
+.logo-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+}
+.logo-main img{
+    width: 50vw;
+}
+.logo-main h3{
+    font-size: 2em;
+    color: var(--font-base-color);
+}
+.logo-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--font-base-color);
+    width: 50vw;
+    height: 10vh;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.logo-search-left{
+    display: flex;
+    align-items: center;
+    margin: 0em 2em;
+    gap: 1em;
+    color: var(--font-accent-color);
+    border-right: 2px solid grey;
+}
+.logo-search-left i {
+    color: hsla(0, 100%, 50%, 0.651)
+}
+.logo-search-left p {
+    margin-right: 15px;
+}
+.logo-search-right{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    color: var(--font-accent-color);
+    overflow: hidden;
+}
+.logo-search-right input{
+    font-size: 1em;
+    outline: none;
+    border: none;
+    min-width: 17em
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container .card{
+    position: relative;
+    margin: 5px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card img{
+    width: 200px;
+}
+.card-caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--font-base-color);
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 4px ;
+}
+.section2{
+    margin-bottom: 2em;
+}
+.section2 h2{
+    margin-left: 100px;
+    font-weight: 400;
+}
+.location-container{
+    position: relative;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.location-items h3{
+    font-weight: 500;
+}
+.location-items{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-radius: 15px;
+    margin: 5px;
+    width: 30%
+    
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    background-color: palegoldenrod;
+}
+.foot-left img{
+    width: 350px;
+    margin-top: 15px;
+}
+.foot-right{
+    margin-top: 150px;
+}
+.foot-right-logos{
+    display: flex;
+}
+.foot-right-logos img{
+    width: 200px;
+    margin: 0px 2px;
+}
